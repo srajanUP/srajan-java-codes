@@ -1,7 +1,7 @@
 class Super{
     // overriding method
     public void display(){
-        System.out.println(" thsi is Super method");
+        System.out.println(" this is Super method");
     }
 }
 
