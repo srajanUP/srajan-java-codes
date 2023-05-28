@@ -8,6 +8,7 @@ class Super{
 
 class Sub extends Super{
     //overridden method 
+    @override
     public void display(){
         System.out.println(" this is sub method");
     }
