@@ -14,6 +14,7 @@ public class WritingData {
         try(PrintWriter write=new PrintWriter("D:\\SEMISTER2\\newfile\\newfile.txt")){    //creating print writer object
             File file=new File("D:\\SEMISTER2\\newfile\\newfile.txt");                    // creating object of file class 
             write.print(in);  // writing in a file
+            //write.write(in);  // also use the write method of the printWriter class to write in a file
             write.close();    //closing the file
         }
 
