@@ -3,6 +3,9 @@ package InterfaceDemo;
 //declaring the interface
 // all the methods of the interface class is necessary to implement
 // it is different from the abstract classes i.e only abstract methods need to be implemented
+
+
+//creating first interface
 interface Bicycle{
     //we can define the properties in the interface
     int a=10;   //it is a final and can not be changed
@@ -10,11 +13,13 @@ interface Bicycle{
     void speedup(int increment);
 }
 
+
 //creating the another interface
 interface HornBicycle{
     void blowhorn1();
     void blowhorn2();
 }
+
 
 //creating the class to implement the the interface methods 
 class AvonCycle implements Bicycle,HornBicycle{
@@ -23,7 +28,7 @@ class AvonCycle implements Bicycle,HornBicycle{
     }
      
     //inplementing the method applybreak
-    public void applyBreak(int decrement){
+    public void applyBreak(int decrement){    //method must be defined public while implementing
         System.out.println("applying break");
     }
     //implementing the method speedup 
@@ -43,6 +48,7 @@ class AvonCycle implements Bicycle,HornBicycle{
 }
 
 
+//main class
 public class InterfacesDemo {
     public static void main(String[] args) {
 
