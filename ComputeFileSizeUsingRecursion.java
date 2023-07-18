@@ -7,7 +7,7 @@ public class ComputeDirectorySizeinjava {
         long size=0; 
 
 
-        //recursive case if the directory is encounterd
+        //recursive case if the directory is encounter
         if (file.isDirectory()){
           //creating array of files and directory
             File[] filesarr= file.listFiles();
